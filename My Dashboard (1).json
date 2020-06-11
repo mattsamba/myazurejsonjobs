@@ -1,0 +1,279 @@
+{
+  "properties": {
+    "lenses": {
+      "0": {
+        "order": 0,
+        "parts": {
+          "0": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "colSpan": 4,
+              "rowSpan": 6
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "resourceType",
+                  "value": "Microsoft.Resources/resources"
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/BrowseAllResourcesPinnedPart",
+              "viewState": {
+                "content": {
+                  "selectableData": {}
+                }
+              }
+            }
+          },
+          "1": {
+            "position": {
+              "x": 4,
+              "y": 0,
+              "colSpan": 4,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/AzureProjectGettingStartedPart"
+            }
+          },
+          "2": {
+            "position": {
+              "x": 8,
+              "y": 0,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/ClockPart",
+              "settings": {}
+            }
+          },
+          "3": {
+            "position": {
+              "x": 11,
+              "y": 0,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/Microsoft_AAD_IAM/PartType/ActiveDirectoryQuickTasksPart"
+            }
+          },
+          "4": {
+            "position": {
+              "x": 4,
+              "y": 2,
+              "colSpan": 4,
+              "rowSpan": 5
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/GettingStartedPart"
+            }
+          },
+          "5": {
+            "position": {
+              "x": 8,
+              "y": 2,
+              "colSpan": 4,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "userObjectId",
+                  "isOptional": true
+                },
+                {
+                  "name": "startDate",
+                  "isOptional": true
+                },
+                {
+                  "name": "endDate",
+                  "isOptional": true
+                },
+                {
+                  "name": "fromAppsTile",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/Microsoft_AAD_IAM/PartType/UsersActivitySummaryReportPart"
+            }
+          },
+          "6": {
+            "position": {
+              "x": 12,
+              "y": 2,
+              "colSpan": 2,
+              "rowSpan": 3
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/Microsoft_Azure_Security/PartType/SecurityMetricGalleryTileViewModel"
+            }
+          },
+          "7": {
+            "position": {
+              "x": 8,
+              "y": 4,
+              "colSpan": 4,
+              "rowSpan": 5
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/GettingStartedPart"
+            }
+          },
+          "8": {
+            "position": {
+              "x": 0,
+              "y": 6,
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/Microsoft_Azure_Health/PartType/ServiceIssuesPinnedPart"
+            }
+          },
+          "9": {
+            "position": {
+              "x": 2,
+              "y": 6,
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "selectedMenuItemId",
+                  "value": "",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/GalleryTile"
+            }
+          },
+          "10": {
+            "position": {
+              "x": 0,
+              "y": 7,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "id",
+                  "value": "/subscriptions/7ad7c199-9d9a-465b-a798-65852cf539da/resourceGroups/Azureresourcegrp/providers/Microsoft.Resources/deployments/Microsoft.SQLDatabase.newDatabaseNewServer_ea0cf5d3a10e4f48b4f7f"
+                },
+                {
+                  "name": "packageId",
+                  "value": "Microsoft.SQLDatabase",
+                  "isOptional": true
+                },
+                {
+                  "name": "packageIconUri",
+                  "value": "https://catalogartifact.azureedge.net/publicartifacts/Microsoft.SQLDatabase-8.0.4/Medium.png",
+                  "isOptional": true
+                },
+                {
+                  "name": "primaryResourceId",
+                  "value": "/subscriptions/7ad7c199-9d9a-465b-a798-65852cf539da/resourceGroups/Azureresourcegrp/providers/Microsoft.Sql/servers/mattazuresqlserver/databases/mysampledatabase",
+                  "isOptional": true
+                },
+                {
+                  "name": "provisioningHash",
+                  "isOptional": true
+                },
+                {
+                  "name": "createBlade",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/DeploymentDetailsOverviewV2BladePinnedPart"
+            }
+          },
+          "11": {
+            "position": {
+              "x": 2,
+              "y": 7,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/Microsoft_AAD_IAM/PartType/UserManagementSummaryPart"
+            }
+          },
+          "12": {
+            "position": {
+              "x": 4,
+              "y": 7,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/ArmDataPart",
+              "settings": {}
+            }
+          },
+          "13": {
+            "position": {
+              "x": 6,
+              "y": 7,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "id",
+                  "value": "/subscriptions/7ad7c199-9d9a-465b-a798-65852cf539da/resourcegroups/RGLinuxVM/providers/Microsoft.Compute/virtualMachines/Linux-VM1",
+                  "isOptional": true
+                },
+                {
+                  "name": "resourceId",
+                  "isOptional": true
+                },
+                {
+                  "name": "menuid",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/ResourcePart",
+              "asset": {
+                "idInputName": "id"
+              }
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "model": {
+        "timeRange": {
+          "value": {
+            "relative": {
+              "duration": 24,
+              "timeUnit": 1
+            }
+          },
+          "type": "MsPortalFx.Composition.Configuration.ValueTypes.TimeRange"
+        }
+      }
+    }
+  },
+  "name": "My Dashboard",
+  "type": "Microsoft.Portal/dashboards",
+  "location": "INSERT LOCATION",
+  "tags": {
+    "hidden-title": "My Dashboard"
+  },
+  "apiVersion": "2015-08-01-preview"
+}
